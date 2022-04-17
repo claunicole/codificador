@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="./css/pc.css"media="(min-width: 1440px)"> 
+<body>
+        <header>
+            <img class="logo-principal" src="./css/assets/Logo.png" alt="logo principal">
+        </header>
+        <main>
+            <section class="text-container">
+            <article class="text-container-left">
+                <textarea name="text-container-input" id="text-container-input" cols="20" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            </article>
+            <section class="aviso-importante-container"">
+                <span class="aviso-importante-exclamation"></span>
+                <p class="aviso-importante-text">Solo letras minúsculas y sin acentos</p>
+            </section>
+            <section class="button_container">
+                <button class="button-top" value="Encriptar" onclick="uiEncriptar()">Encriptar</button>
+                <button class="button-bottom" value="Desencriptar" onclick="uiDesencriptar()">Desencriptar</button>
+            </section>
+            <div class="mensaje-container">
+                <textarea readonly class="salida" id="salida"></textarea>
+                <section class="mensaje-container-aviso">
+                        <img src="./css/assets/Search.png" alt="Dibujo de persona buscando con una lupa" class="image-search" id="image-search">
+                        <h1 class="mensaje-container-aviso_title" id="mensaje-container-aviso_title">Ningún mensaje fue encontrado</h1>
+                        <textarea readonly class="mensaje-container-aviso_p" id="mensaje-container-aviso_p">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                    </article>
+                    </section>
+                <article class="button-container_copy" >
+                <button class="button-copy" id="button-copy" onclick="uiCopiar()" value="copiar">Copiar</button>
+                </article>  
+            </div>
+        </section>
+        </main>
+        <footer>
+            <section class="footer-socialmedia">
+                <ul>
+                    <li><a href="https://github.com/claunicole" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/Claunicole1" target="_blank">Twitter</a></li>
+                    <li>2022 Claudia González Fuentes</li>
+                </ul>
+            </section>
+        </footer>
+<script type="text/javascript" src="./code.js"></script>
+</body>
+</html>

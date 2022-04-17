@@ -1,0 +1,45 @@
+.logo-principal {
+    margin-left: 40px;
+    margin-top: 74px;
+}
+
+.text-container-left {
+    min-width: 550px;
+    min-height: 80px;
+    margin: 120px 40px;
+    
+}
+
+.aviso-importante-container {
+    margin-top: 251px;
+    margin-left: 16px;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 600px;
+    height: 67px;
+}
+
+.button-top {
+    width: 270px;
+}
+
+.button-bottom {
+    width: 270px;
+    margin-top: 0;
+}
+
+.button-copy {
+    display: non;
+    width: 500px;
+    height: 67px;
+    margin: 32px auto;
+   
+}
+
+.image-search {
+    display:none;
+}

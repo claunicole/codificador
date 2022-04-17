@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #15202B;
+}
+
+.logo-principal {
+    margin-left: 16px;
+    margin-top: 24px;
+    width: 32px;
+    height: 48px;
+}
+
+.text-container-left{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 290px;
+    min-height: 200px;
+    margin: 80px 16px;
+    line-height: 4.8rem;
+    font-size: 3.2rem;
+    background-color: #15202B;
+    color: #FFFFFF;
+  
+}
+
+textarea {
+    min-width: 290px;
+    min-height: 100px;
+    border: 0;
+    outline: none;
+    resize: none;
+    font-size: 3.2rem;
+    font-family: 'Inter';
+    background-color: #15202B;
+    color: #fff;
+}
+
+textarea::placeholder {
+    font-family: 'Inter';
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    color: #fff;
+  }
+
+
+.aviso-importante-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 16px;
+}
+
+
+.aviso-importante-exclamation {
+    display: inline-block;
+    background-image: url('./assets/Important.png');
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.aviso-importante-text {
+    font-size: 1.7rem;
+    color: #FFFFFF;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 280px;
+    height: 158px;
+    margin: 16px auto;
+}
+
+.button-top {
+    width: 280px;
+    height: 67px;
+    font-size: 1.6rem;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    color: #fff;
+    background-color: #5d6874;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    
+}
+
+.button-top:hover, .button-bottom:hover, .button-copy:hover  {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #000000;
+    transform: translateY(-7px);
+    font-weight: bold;
+   }
+   
+   .button-top:active, .button-bottom:active, .button-copy:active {
+    transform: translateY(-1px);
+   }
+
+.button-bottom {
+    width: 280px;
+    height: 67px;
+    margin-top: 24px;
+    font-size: 1.6rem;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    color: #fff;
+    background-color: #5d6874;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    
+}
+
+.image-search {
+    display: none;
+}
+
+.mensaje-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 280px;
+    min-height: 186px;
+    margin: 64px 24px 30px;
+    padding: 5px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background-color: #5d6874;
+}
+
+#salida {
+    min-width: 270px;
+    min-height: 100px;
+    border-radius: 32px 32px 0 0;
+    padding: 10px;
+    font-size: 3.4rem;
+    font-family: 'Inter';
+    line-height: 3.6rem;
+    font-weight: 400;
+    background-color: #5d6874;
+    color: #fff;
+}
+
+.mensaje-container-aviso {
+    min-width: 280px;
+    min-height: 186px;
+}
+
+.mensaje-container-aviso_title {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    margin-top: 32px;
+    color: #15202B;
+}
+
+.mensaje-container-aviso_p {
+    margin: 16px 30px 32px;
+    min-width: 240px;
+    font-size: 1.8rem;
+    font-family: 'Inter';
+    line-height: 3.6rem;
+    font-weight: 400;
+    background-color: #5d6874;
+    color: #15202B;
+    
+}
+
+
+.button-copy {
+    display: non;
+    cursor: pointer;
+    width: 230px;
+    height: 67px;
+    margin: 32px auto;
+    font-size: 1.6rem;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    color: #fff;
+    background-color: #1e2732;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1e2732;
+}
+.footer-socialmedia {
+    padding: 15px;
+
+}
+
+.footer-socialmedia ul {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.footer-socialmedia li {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.footer-socialmedia a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
