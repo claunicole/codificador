@@ -90,10 +90,6 @@ textarea::placeholder {
 .button-top {
     width: 280px;
     height: 67px;
-    font-size: 1.6rem;
-    line-height: 19px;
-    letter-spacing: 2.5px;
-    color: #fff;
     background-color: #5d6874;
     border: none;
     border-radius: 45px;
@@ -101,18 +97,29 @@ textarea::placeholder {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
+}
+
+.button-top a, .button-bottom a {
+    font-size: 1.6rem;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .button-top:hover, .button-bottom:hover, .button-copy:hover  {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #000000;
     transform: translateY(-7px);
-    font-weight: bold;
    }
    
+   .button-top:hover a, .button-bottom:hover a {
+    color: #000000;
+    font-weight: bold;
+   }
+
+
    .button-top:active, .button-bottom:active, .button-copy:active {
     transform: translateY(-1px);
    }
@@ -121,10 +128,6 @@ textarea::placeholder {
     width: 280px;
     height: 67px;
     margin-top: 24px;
-    font-size: 1.6rem;
-    line-height: 19px;
-    letter-spacing: 2.5px;
-    color: #fff;
     background-color: #5d6874;
     border: none;
     border-radius: 45px;
